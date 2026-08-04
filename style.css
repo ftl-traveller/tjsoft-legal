@@ -13,6 +13,8 @@ h1 { font-size: 1.75rem; margin: 0 0 4px; letter-spacing: -0.02em; }
 .sub { color: #666; font-size: 0.95rem; margin: 0; }
 .updated { color: #666; font-size: 0.88rem; margin: 0 0 8px; }
 h2 { font-size: 1.12rem; margin-top: 30px; margin-bottom: 6px; }
+h3 { font-size: 1.02rem; margin: 0 0 6px; }
+.app { border: 1px solid #e5e5e5; border-radius: 12px; padding: 18px 20px; margin: 12px 0; }
 p { margin: 0 0 14px; }
 a { color: #1a73e8; text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -26,7 +28,7 @@ a:hover { text-decoration: underline; }
 footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid #e5e5e5; color: #666; font-size: 0.85rem; }
 @media (prefers-color-scheme: dark) {
   body { color: #e6e6e6; background: #0f1115; }
-  header.site, footer, .card { border-color: #2a2d34; }
+  header.site, footer, .card, .app { border-color: #2a2d34; }
   .sub, .updated, footer { color: #9aa0a6; }
   a { color: #8ab4f8; }
   .card:hover { border-color: #8ab4f8; }
